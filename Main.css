@@ -1,0 +1,149 @@
+* {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(114, 106, 106);
+}
+
+/* Particular para el encabezado */
+
+.BannerSuperior {
+    border-bottom: 1px solid black;
+}
+
+/* Particular para el encabezado: Presentacion y foto */
+
+.Presentacion {
+    background-color: crimson;
+    color: rgb(204, 183, 129);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 101%;
+}
+
+.Presentacion h1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: 900;
+}
+
+.ListaIdentada {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.ListaIdentada li:nth-child(2) {
+    margin-left:  5%;
+}
+
+.ListaIdentada li:nth-child(3) {
+    margin-left:  10%;
+}
+
+.ListaIdentada li:nth-child(4) {
+    margin-left:  15%;
+}
+
+#FotoCara {
+    width: 70%;
+}
+
+/* Particular para el encabezado: Banner de Info */
+
+#Infobanner {
+    background-color:rgb(236, 116, 116); 
+    padding-top: 3%;
+    text-align: right;
+    color: rgb(153, 7, 36);
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#Infobanner p:nth-child(1) {
+    margin-right:  20%;
+}
+
+#Infobanner p:nth-child(2) {
+    margin-top: 4%;
+    margin-right:  30%;
+}
+
+#Infobanner p:nth-child(3) {
+    margin-top: 4%;
+    margin-right:  40%;
+}
+
+/* Sobre el sector de opciones de navegacion */
+
+.Navegador {
+    background-color:rgb(119, 116, 116); 
+    font-weight: bold;
+    padding: 2% 0%;
+    border-right: 1px solid black;
+}
+
+.Navegador ul {
+    list-style: none;
+    border-color: black;
+    padding: 5% 0%;
+    width: 90%;
+}
+
+.Navegador ul li {
+    border-color: black;
+}
+
+a:link, a:visited {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(141, 24, 141);
+}
+
+#ApartadoEstudios, #ApartadoTeatro, #ApartadoCine, #ApartadoTV, #ApartadoPublicidad {
+    background-color:rgb(185, 173, 173);
+}
+
+/* Sobre el contenido que varia por eventos */ 
+
+#FrameVariable {
+    background-color:rgb(168, 164, 164);
+}
+
+#DatosPorRubro {
+    padding: 9% 15%;
+    text-align: left;
+}
+
+/* Pie de página */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: crimson;
+    color: rgb(206, 177, 104);
+    padding: 1% 0%;
+    border-top: 1px solid black;
+}
+
+footer a:visited, footer a:link {
+    color: rgb(206, 177, 104);
+}
+
+footer a:hover {
+    color: black;
+}
+
+#Contacto {
+    text-decoration: underline;
+}
+
+
+
+
+
